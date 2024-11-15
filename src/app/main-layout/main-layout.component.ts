@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-main-layout',
+  templateUrl: './main-layout.component.html',
+  styleUrl: './main-layout.component.css'
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class MainLayoutComponent {
   isDashboard: boolean = false;
   isLoginPage: boolean = false;
 
